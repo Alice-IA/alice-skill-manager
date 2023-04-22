@@ -13,7 +13,7 @@ def required(requirements_file):
 
 
 setup(
-    name='asm',
+    name='alice_skills_maneger',
     version='0.0.1',
     packages=['asm'],
     install_requires=required('requirements/requirements.txt'),
@@ -37,7 +37,7 @@ setup(
     ],
     entry_points={
         'console_scripts': {
-            'asm=asm.__main__:main'
+            'alice_skills_maneger=asm.__main__:main'
         }
     },
 )
