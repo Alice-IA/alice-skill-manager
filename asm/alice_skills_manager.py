@@ -14,7 +14,7 @@ from typing import Dict, List
 from xdg import BaseDirectory
 
 from alice_skills_manager import GitException
-from alice_skills_manager.exceptions import (
+from asm.exceptions import (
     AlreadyInstalled,
     AlreadyRemoved,
     AsmException,
@@ -22,16 +22,16 @@ from alice_skills_manager.exceptions import (
     RemoveException,
     SkillNotFound
 )
-from alice_skills_manager.skill_entry import SkillEntry
-from alice_skills_manager.skill_repo import SkillRepo
-from alice_skills_manager.skill_state import (
+from asm.skill_entry import SkillEntry
+from asm.skill_repo import SkillRepo
+from asm.skill_state import (
     initialize_skill_state,
     get_skill_state,
     write_device_skill_state,
     load_device_skill_state,
     device_skill_state_hash
 )
-from alice_skills_manager.util import cached_property, AsmProcessLock
+from asm.util import cached_property, AsmProcessLock
 
 LOG = logging.getLogger(__name__)
 

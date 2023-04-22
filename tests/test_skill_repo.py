@@ -1,7 +1,7 @@
 from os import chdir
 from os.path import abspath, dirname
 
-from alice_skills_manager import SkillRepo
+from asm import SkillRepo
 
 
 class TestSkillRepo(object):

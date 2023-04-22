@@ -8,9 +8,9 @@ from unittest import TestCase
 
 from unittest.mock import call, Mock, patch
 
-from alice_skills_manager import AliceSkillsManager, AlreadyInstalled, AlreadyRemoved
-from alice_skills_manager.exceptions import AsmException
-from alice_skills_manager.skill_state import device_skill_state_hash
+from asm import AliceSkillsManager, AlreadyInstalled, AlreadyRemoved
+from asm.exceptions import AsmException
+from asm.skill_state import device_skill_state_hash
 
 
 class TestAliceSkillsManager(TestCase):

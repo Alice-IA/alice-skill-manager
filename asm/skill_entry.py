@@ -17,11 +17,11 @@ from threading import Lock
 from typing import Callable
 from pako import PakoManager
 
-from alice_skills_manager import SkillRequirementsException, git_to_asm_exceptions
-from alice_skills_manager.exceptions import PipRequirementsException, \
+from asm import SkillRequirementsException, git_to_asm_exceptions
+from asm.exceptions import PipRequirementsException, \
     SystemRequirementsException, AlreadyInstalled, SkillModified, \
     AlreadyRemoved, RemoveException, CloneException, NotInstalled, GitException
-from alice_skills_manager.util import cached_property, Git
+from asm.util import cached_property, Git
 
 LOG = logging.getLogger(__name__)
 
