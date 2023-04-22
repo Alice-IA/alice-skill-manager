@@ -23,7 +23,7 @@ def required(requirements_file):
 
 setup(
     name='alice-skills-manager',
-    version='0.0.4',
+    version='0.0.5',
     packages=['asm'],
     install_requires=required('requirements/requirements.txt'),
     package_data={'': package_files('asm')},
