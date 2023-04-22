@@ -8,9 +8,9 @@ from xdg import BaseDirectory
 from git import Repo
 from git.exc import GitCommandError, GitError
 
-from asm import git_to_asm_exceptions
-from asm.exceptions import AsmException
-from asm.util import cached_property, Git
+from alice_skills_manager import git_to_asm_exceptions
+from alice_skills_manager.exceptions import AsmException
+from alice_skills_manager.util import cached_property, Git
 import logging
 import requests
 

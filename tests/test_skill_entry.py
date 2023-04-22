@@ -1,7 +1,7 @@
 import pytest
 from os.path import exists, join, dirname, abspath
 
-from asm import SkillEntry
+from alice_skills_manager import SkillEntry
 
 
 class TestSkillEntry(object):

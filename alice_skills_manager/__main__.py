@@ -2,9 +2,9 @@ import logging
 import sys
 from logging import ERROR, INFO
 
-from asm.exceptions import AsmException
-from asm.alice_skills_manager import AliceSkillsManager
-from asm.skill_repo import SkillRepo
+from alice_skills_manager.exceptions import AsmException
+from alice_skills_manager.alice_skills_manager import AliceSkillsManager
+from alice_skills_manager.skill_repo import SkillRepo
 
 LOG = logging.getLogger(__name__)
 

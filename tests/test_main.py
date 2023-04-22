@@ -3,7 +3,7 @@ from os.path import dirname, abspath, join
 import pytest
 from shutil import rmtree
 
-from asm.__main__ import main
+from alice_skills_manager.__main__ import main
 
 
 class TestMain(object):
