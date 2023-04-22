@@ -15,7 +15,7 @@ def required(requirements_file):
 setup(
     name='alice_skills_maneger',
     version='0.0.1',
-    packages=['asm'],
+    packages=['alice_skill_manager'],
     install_requires=required('requirements/requirements.txt'),
     tests_require=required('requirements/tests.txt'),
     python_requires='>=3.6',
