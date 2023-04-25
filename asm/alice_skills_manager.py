@@ -13,7 +13,7 @@ from typing import Dict, List
 
 from xdg import BaseDirectory
 
-from alice_skills_manager import GitException
+from asm import GitException
 from asm.exceptions import (
     AlreadyInstalled,
     AlreadyRemoved,
